@@ -10,7 +10,9 @@ ngular2主要有两种导航方式：
 
 ①链接式导航：页面设置导航链接，点击后跳转至相应页面；如：
 
-`<a routerLink=['/home']>`
+`html
+<a routerLink=['/home']>
+`
 
 ②命令式导航：设置点击事件，在组件内进行逻辑页面跳转;如：
 ```typescript
