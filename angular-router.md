@@ -35,7 +35,7 @@ Angular路由默认采用相对文件路径，为了保证项目的正常导航�
 至此，就可以尽情的享用angular的路由服务了？然而并未如此，你还要定义你的导航规则，也就要看到真正的导航效果，
 你还需要两步要走：
  - ①设置路由配置：在src/app/app.module.ts文件中配置路由参数
- ```typescript
+  ```typescript
  // 1.angular2 路由采用有限匹配原则，所以通用匹配一般放置在最后；
  // 2.angular2 路由配置文件中路径不能以斜杠slash('/')开头,导航时会自动识别转换；
  // 3.angular2 路由
@@ -56,8 +56,7 @@ const appRoutes:Routes=[
 export class AppModule{}
 ```
 - ②路由链接设置：至此我们只要在html页面中设置路由链接、组件视图渲染位置遍可以自由导航了；
-
-```angular2html
+ ```angular2html
 // 1. 路由链接：导航地址         routerLink='string'
 //            当前导航是否可用   routerLinkActive='active'
 // 2. 路由插座：组件视图渲染位置  <router-outlet></router-outlet>
