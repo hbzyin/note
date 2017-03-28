@@ -41,3 +41,4 @@ Tihs information2 is deleted if condition is true.
 ```
 打开浏览器及开发工具，效果如下;
 ![](sources/page1.png)
+![](sources/code1.png)

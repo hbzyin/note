@@ -9,3 +9,6 @@ Here is the index of the content for this blog repositry.
  
 ## Chepter2 angular tools.
 >[1.some usefull commond with angular-cli](https://github.com/hbzyin/blog/blob/master/angularCLI.md)
+
+## Chapter3 angular directive
+> [1.angular directive](https://github.com/hbzyin/blog/blob/master/angular-directive1.md)
