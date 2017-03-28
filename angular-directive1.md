@@ -29,3 +29,15 @@ Angular的指令分为以下三种：
 >结构指令通过添加或删除DOM元素来改变DOM布局。如内置的`ngIf`、`ngSwitch`、`ngFor`等指令。
 
 ***下面我们主要针对`ngIf`来谈一下angular的一部分优缺点。***
+
+先看一个栗子：
+```angular2html
+<p *ngIf="true">
+This information1 is displayed if condition is true.
+</p>
+<p *ngIf="!true">
+Tihs information2 is deleted if condition is true.
+</p>
+```
+打开浏览器及开发工具，效果如下;
+![](sources/page1.png)
