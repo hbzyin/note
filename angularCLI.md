@@ -18,11 +18,12 @@
 - `ng g c component2/component4 --is --it -flat`创建一个组件component4,采用内联式样式、内联式模板;
 
 如下图所示：
+
 ①`ng g c component1`
 ![](sources/imgs/angular-cli/ng-g-c-1.png)
 ②`ng g c component2 --is`
 ![](sources/imgs/angular-cli/ng-g-c-2.png)
-③`ng g c component2/component3 --is -flat`
+③`ng g c component2/component3 --is -flat`  `-flat` 组件在当前文件夹下不新建目录
 ![](sources/imgs/angular-cli/ng-g-c-3.png)
 ④`ng g c component2/component4 --is --it -flat`
 ![](sources/imgs/angular-cli/ng-g-c-4.png)
@@ -34,7 +35,8 @@
 - `ng g m module2 --routing` 创建一个模块，模块名称 **Module2Module**,*采用外联路由文件*;
 
 如下图：
+
 ①`ng g m core-module` 
 ![](sources/imgs/angular-cli/ng-g-m-1.png)
-②`ng g m module2 --routing`
+②`ng g m module2 --routing`       `--routing` 同时新建单独路由文件
 ![](sources/imgs/angular-cli/ng-g-m-2.png)
