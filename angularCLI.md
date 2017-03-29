@@ -54,3 +54,11 @@
 ②`ng g class class2 --spec`  同时创建.spec.ts文件
 ![](sources/imgs/angular-cli/ng-g-class-2.png)
 
+### 5.创建可枚举类
+
+- `ng g enum enum1` 创建一个可枚举类，类名**Enum1** 文件路径：`app/enum1.enum.ts`
+
+如下图
+
+①`ng g enum enum1`
+![](sources/imgs/angular-cli/ng-g-enum.png)
