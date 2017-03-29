@@ -12,10 +12,10 @@
 
 ### 创建组件
 
-- `ng g c component1`                           创建一个组件component1,同时创建相应的.html、.spc.ts、.css文件，文件路径：`app/component1/component1.ts`
-- `ng g c component2 --is`                      创建一个组件component2,同时创建相应的.html、.spc.ts文件，采用内联式样式文件；文件路径：`app/compnent2/component2.ts`
-- `ng g c component2/component3 --is -flat`     创建一个组件component3,采用内联式样式,文件路径：`app/compnent2/component3.ts`
-- `ng g c component2/component4 --is --it -flat`创建一个组件component4,采用内联式样式、内联式模板,文件路径：`app/compnent2/component4.ts`
+- `ng g c component1`                           创建一个组件component1,同时创建相应的.html、.spc.ts、.css文件，
+- `ng g c component2 --is`                      创建一个组件component2,同时创建相应的.html、.spc.ts文件，采用内联式样式文件；
+- `ng g c component2/component3 --is -flat`     创建一个组件component3,采用内联式样式;
+- `ng g c component2/component4 --is --it -flat`创建一个组件component4,采用内联式样式、内联式模板;
 
 如下图所示：
 ![](sources/imgs/angular-cli/ng-g-c-1.png)
@@ -26,8 +26,8 @@
 
 ### 创建模块
 
-- `ng g m core-module`       创建一个模块，模块名称 **CoreModuleModule**,文件路径：`app/core-module/core-module.ts`
-- `ng g m module2 --routing` 创建一个模块，模块名称 **Module2Module**,*采用外联路由文件*文件路径：`app/core-module/core-module.ts`
+- `ng g m core-module`       创建一个模块，模块名称 **CoreModuleModule**;
+- `ng g m module2 --routing` 创建一个模块，模块名称 **Module2Module**,*采用外联路由文件*;
 
 如下图：
 
