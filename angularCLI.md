@@ -2,7 +2,7 @@
 你应该不会错过吧，Angular-cli
 
 
-### 创建一个新项目
+### 1.创建一个新项目
 - `ng new project-name `      创建一个新的项目,并自动安装依赖包,项目名称为：**projec-name**
 - `ng new project-name -si`   创建一个新的项目，并跳过node依赖包自动安装（`-si`即`--skip-install`）
 
@@ -10,7 +10,7 @@
 ![](sources/imgs/angular-cli/ng-new0.png)
 ![](sources/imgs/angular-cli/app-files.png)
 
-### 创建组件
+### 2.创建组件
 
 - `ng g c component1`                           创建一个组件component1,同时创建相应的.html、.spc.ts、.css文件，
 - `ng g c component2 --is`                      创建一个组件component2,同时创建相应的.html、.spc.ts文件，采用内联式样式文件；
@@ -29,7 +29,7 @@
 ![](sources/imgs/angular-cli/ng-g-c-4.png)
 
 
-### 创建模块
+### 3.创建模块
 
 - `ng g m core-module`       创建一个模块，模块名称 **CoreModuleModule**;
 - `ng g m module2 --routing` 创建一个模块，模块名称 **Module2Module**,*采用外联路由文件*;
@@ -40,3 +40,17 @@
 ![](sources/imgs/angular-cli/ng-g-m-1.png)
 ②`ng g m module2 --routing`       `--routing` 同时新建单独路由文件
 ![](sources/imgs/angular-cli/ng-g-m-2.png)
+
+
+###  4.创建类
+
+- `ng g class class1`   创建一个类，类名**Class1**
+- `ng g class class2 --spec`   创建一个类，类名**Class2**
+
+如下图：
+
+①`ng g class class1`
+![](sources/imgs/angular-cli/ng-g-class-1.png)
+②`ng g class class2 --spec`  同时创建.spec.ts文件
+![](sources/imgs/angular-cli/ng-g-class-2.png)
+
