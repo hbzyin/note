@@ -21,11 +21,11 @@
 
 ①`ng g c component1`
 ![](sources/imgs/angular-cli/ng-g-c-1.png)
-②`ng g c component2 --is`
+②`ng g c component2 --is` (`--is`即`-inline -style`)
 ![](sources/imgs/angular-cli/ng-g-c-2.png)
-③`ng g c component2/component3 --is -flat`  `-flat` 组件在当前文件夹下不新建目录
+③`ng g c component2/component3 --is -flat`  `-flat`组件在当前文件夹下不新建目录
 ![](sources/imgs/angular-cli/ng-g-c-3.png)
-④`ng g c component2/component4 --is --it -flat`
+④`ng g c component2/component4 --is --it -flat`  (`--it`即：`-inline -template`)
 ![](sources/imgs/angular-cli/ng-g-c-4.png)
 
 
