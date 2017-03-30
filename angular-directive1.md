@@ -44,6 +44,20 @@ Tihs information2 is deleted if condition is true.
 ![](sources/code1.png)
 
 我们看到dom树里面只有一个段落，也就是说第二个段落被*ngIf指令从DOM树种移除了，当然我们也可以通过设置元素节点css属性display:none将其隐藏。
+在彻底明白angular底层是如何实现这一功能的，我们还有必要来看看html的一个不常用标签元素`<template>`
+html5的`template`标签，允许开发者在里面添加一些代码段，这些代码段这页面初始化时不会被渲染，但可以被Javascript语句操作，并渲染在页面；
+下面是angular2,   `ngIf`代码的两种使用方法：
+```angular2html
+<!--(A)*语法糖 *ngIf paragraph-->
+<p *ngIf="condition">This will show if condition is true.</p>
+<!--(B)template标签 [ngIf] with template-->
+<template [ngIf]="condition">
+  <p>This will show if condition is true.</p>
+</template>
+
+//ps.通常我们采用第一种书写方式（A）： angular内部会将风格(A)转换成(B)
+```
+
 为什么angular将其从DOM树种删除，而不是隐藏，我们先来看看两者之间的区别：
 
 ①元素隐藏：元素仍在页面DOM树里面存在，仍然实时监听着页面的事件，如果绑定了数据，angular会继续对其进行动态监测；
