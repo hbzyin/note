@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>file api</title>
+</head>
+<body>
+<h3>Blob对象</h3>
+<script>
+  var el=["<a id=\"a\">" +
+  "<b id=\"b\">hey!<\/b>" +
+  "<\/a>"];
+//  var blob=new Blob(el,{"type":"text\/xml"});
+  var blob = new Blob(["Hello World"]);
+
+  var a = document.createElement("a");
+  a.href = window.URL.createObjectURL(blob);
+  a.download = "hello-world.txt";
+  a.textContent = "Download Hello World!";
+
+  body.appendChild(a);
+
+</script>
+
+</body>
+</html>
