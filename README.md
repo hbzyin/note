@@ -1,5 +1,6 @@
 # Introduction of the cotent
 Here is the index of the content for this blog repositry.
+PS:[前端开发者知识体系完善](https://github.com/hbzyin/blog/blob/master/%E7%9F%A5%E8%AF%86%E5%AE%8C%E5%96%84%E4%BD%93%E7%B3%BB.md) (不定期更新中)
 
 ## Chepter1  angular.
 
