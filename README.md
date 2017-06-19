@@ -16,3 +16,6 @@
 
 ## Chapter3 angular directive
 > [1.angular directive](https://github.com/hbzyin/blog/blob/master/angular-directive1.md)
+
+## Chapter4 angular Advanced Component
+> [1.angular view/style Encapsulation]()
