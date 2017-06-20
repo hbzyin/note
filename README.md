@@ -18,4 +18,4 @@
 > [1.angular directive](https://github.com/hbzyin/blog/blob/master/angular-directive1.md)
 
 ## Chapter4 angular Advanced Component
-> [1.angular view/style Encapsulation]()
+> [1.angular view/style Encapsulation](https://github.com/hbzyin/blog/blob/master/angular-view-Encapsulation.md)

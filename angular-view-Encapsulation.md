@@ -33,10 +33,29 @@
     2. 组件外联：`styleUrls:['./session.component.scss']`
  3. 标签级别样式：`<div style="font-color:red"></div>`
  
- ### 3. angular视图封装——shadow DOM
+ ### 3. shadow DOM
  
- > 场景1：开发angular项目时，假如我们在配置文件.angular.cli.json、组件内联/外联、标签内，多处都设置了同样的样式，页面改如何展示？
+ ##### 3.1：开发angular项目时，假如我们在配置文件.angular.cli.json、组件内联/外联、标签内，多处都设置了同样的样式，页面改如何展示？
  
   让我们先来预测一下结果：
-  a.加入三处引入的样式都没有采用`!important`,那么根据优先级，页面的样式也就是标签内嵌样式的结果；
-  b.
+  a.假如三处引入的样式都没有采用`!important`,那么根据优先级，页面的样式也就是标签内嵌样式的结果；
+  b.假如三处引入的样式具有javascript模式的变量作用域概念，那么页面的样式应该是最小子组件覆盖父层组件样式；
+  c.假如三处引入样式具有样式重写效果，那么，将按照样式的定义先后顺序，最后定义的样式覆盖先定义的样式；
+  
+ > 令人兴奋的是，上面三种我们预测的效果，angular都有实现的技术：你所需要做的仅仅是在组件定义时加上一条元数据：`encapsulation:ViewEncapsulation.Emulate/Native/None`
+ > 而这些神奇的功能效果，背后所支撑的技术就是目前组件化前端框架的基础：**Shadow Dom**.
+ 
+ ##### 3.2 Shadow DOM
+ 什么是shadow dom技术？
+ 简单来说，就是浏览器标准中开放给开发者用来自定义 html标签元素的API,接口也极其简单：`Element.createShadowRoot()`;
+ 
+ Shadow DOM允许开发者在页面的DOM树结构里面，插入自定义的DOM元素子树，DOM元素子树的内容、页面样式、javascript均与宿主DOM树相互独立.
+ 
+ ***没错，这就是当今2017年前端最流行的组件化设计思想，得以实现的技术基础！！！***
+ 刨根问底，请用力戳破==>
+ [MDN文档](https://developer.mozilla.org/zh-CN/docs/Web/Web_Components/%E5%BD%B1%E5%AD%90_DOM)、
+ [参考文章](https://aotu.io/notes/2016/06/24/Shadow-DOM/index.html)。
+ 
+ ### 4. angular视图封装 
+  ——————`encapsulation:ViewEncapsulation.Emulate/Native/Native`
+ 
