@@ -66,7 +66,8 @@
  
  为此我们看一下才用三种不同配置时，浏览器开发者模式下页面html代码的差异：
  创建一个最简单的angular项目；并在引入的全局样式文件style.scss、及app组件内联样式中分别定义一个`.test`的样式类目录结构如下
- 为了便于区分，我们在全局样式定义前加上一行注释`/* global styles  */`；
+ 为了便于区分，我们在全局样式定义前加上一行注释`/* global styles  */`;
+ 
  ![](sources/imgs/angular-advanced/project.structure.png)
  
  ![](sources/imgs/angular-advanced/viewEncapsulation.enmulate.png)
