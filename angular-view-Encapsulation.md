@@ -69,7 +69,7 @@
  为了便于区分，我们在全局样式定义前加上一行注释`/* global styles  */`；
  ![](sources/imgs/angular-advanced/project.structure.png)
  ![](sources/imgs/angular-advanced/viewEncapsulation.enmulate.png)
- ![](sources/imgs/angular-advanced/global.png)
+ ![](sources/imgs/angular-advanced/global.scss.png)
  
  
  ① 默认配置方式——`Emulate`，由于我们在app组件中并未定义`ecapsulation`meata元素，此时为默认配置方式，打开浏览器，我们可以看到页面结构如下:
@@ -84,7 +84,7 @@
    
     结合上面三点，我们就不难理解，这个`_ngcontent-c0`的属性正是angular2为了识别封装的组件，自动添加的，
  子组件可以继承并重写全局/父组件的演示，这就是angular的**仿真Shadow DOM技术**；*
- ![](sources/imgs/angular-advanced/viewEncapsulate.emulate.png)
+ ![](sources/imgs/angular-advanced/viewEncapsulation.emulate.png)
  ![](sources/imgs/angular-advanced/html.emulate.png)
  
  ② 原生配置方式——`Shadow DOM`,在app组件的装饰器内添加`encapsulation:ViewEncapsulate.Native`,再次运行项目，打开浏览器，如下：
@@ -94,14 +94,14 @@
    此种原声shadow dom的配置方式，就是我们在本文第3节中提到的*原生Shadow DOM*；
    > 1. 此处div元素采用浏览器默认的尺寸样式，没有采用全局的尺寸样式；说明，此处子组件已无安全与福组件/全局样式隔离，不受全局样式影响；
    > 2. 此处div元素背景色、边框均采用子组件app设置的样式，说明此时，子组件可自由定义局部样式属性；
-   ![](sources/imgs/angular-advanced/viewEncapsulte.native.png)
+   ![](sources/imgs/angular-advanced/viewEncapsulation.native.png)
    ![](sources/imgs/angular-advanced/html.native.png)
    
  ③ 无Shadow DOM配置方————在app组件的装饰器内添加`encapsulation:ViewEncapsulate.None`,再次运行项目，打开浏览器，如下：
  
  此时页面元素的显示效果与仿真DOM方式的配置一模一样；html代码与仿真DOM配置方式下也极为相似；我们看一下与`emulate`配置方式的不同之处：
  > app子组件中配置的`.test`类样式没有angular2自动添加的组件识别属性`_ngcontent-c0`；
- ![](sources/imgs/angular-advanced/viewEncapsulate.none.png)
+ ![](sources/imgs/angular-advanced/viewEncapsulation.none.png)
  ![](sources/imgs/angular-advanced/html.none.png)
     
  
