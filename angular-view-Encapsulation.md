@@ -70,7 +70,7 @@
  
  ![](sources/imgs/angular-advanced/project.structure.png)
  
- ![](sources/imgs/angular-advanced/viewEncapsulation.enmulate.png)
+ ![](sources/imgs/angular-advanced/viewEncapsulation.emulate.png)
  
  ![](sources/imgs/angular-advanced/global.scss.png)
  
