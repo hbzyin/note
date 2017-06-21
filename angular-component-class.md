@@ -2,7 +2,7 @@
 
 |序号 | 名称          |类型              |必要性  | 作用         |示例|备注|
 |----|---------------|---------------- |-------|-------------|----|----|
-|1   | template       |string           |必须   |组件内联html模板|啊|啊|
+|1   | template       |string           |必须   |组件内联html模板|||
 |2   | templateUrl    |string           |必须   |组件外联html模板 |||
 |3   | styles         |strtin[]         |非必须 |组件内联css样式 |||
 |4   | styleUrls      |string[]         |非必须 |组件外联css样式 |||
