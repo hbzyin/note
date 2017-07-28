@@ -93,8 +93,8 @@
  > 3. 两种工作模式的流程示意图
 
  <div align='center'>
-    <img src="sources/imgs/workflow/gitlab-workflow-continue.png" width="450" height="400" alt="具体工作流程图如下"/>
-    <img src="sources/imgs/workflow/gitlab-workflow-release.png" width="450" height="400" alt="具体工作流程图如下"/>
+    <img src="sources/imgs/workflow/gitlab-workflow-continue.png" width="400" height="400" alt="具体工作流程图如下"/>
+    <img src="sources/imgs/workflow/gitlab-workflow-release.png" width="400" height="400" alt="具体工作流程图如下"/>
  </div>
 
 > 参考文章：
