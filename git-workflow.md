@@ -105,4 +105,4 @@
 
 3. Gitlab workflow 参考：[gitlab flow](https://about.gitlab.com/2014/09/29/gitlab-flow/)、[gitlab workflow](https://about.gitlab.com/2016/10/25/gitlab-workflow-an-overview/)
 
-4. 分布式和集中式版本控制系统的差别，参考： [Subversion VS Git](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374027586935cf69c53637d8458c9aec27dd546a6cd6000)
+4. 版本控制系统入门介绍,参考： [Subversion VS Git](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374027586935cf69c53637d8458c9aec27dd546a6cd6000)
