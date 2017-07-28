@@ -15,7 +15,6 @@
 ## angular框架学习相关手记 .
 
 > [1.anguar2开发脚手架介绍angular-cli](./angularCLI.md)
-> [1.some usefull command with angular-cli](./angularCLI.md)
 
 > [2.Angular2视图封装原理](./angular-view-Encapsulation.md)
 
