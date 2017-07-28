@@ -30,7 +30,7 @@
 
 > 不同框架性能对比测试，[传送门](https://rawgit.com/krausest/js-framework-benchmark/master/webdriver-ts/table.html)
 
-|序号|名称     |团队      |设计模式      |star   |包大小(gzip)      |学习曲线|相关技术|相关信息     |
+|序号|名称     |团队      |设计模式      |star   |包大小(gzip)      |学习曲线|相关技术|相关信息    |
 |---|---------|---------|------------|------:|----------------:|-------|-------|--------|
 |1  |angularjs|谷歌      |双向数据绑定  |56,105+|                 |陡峭   |MVC|[官网](https://angularjs.org/) |
 |2  |angular  |谷歌      |双向数据绑定  |26,225+|237.41kb/v4.1.3|陡峭|MVC、组件化、Rxjs|[官网](https://angular.io/)  |
@@ -42,6 +42,7 @@
 |8  |knockout.js|*可学习,不推荐使用*|| 8,249+||适中|MVVM     |[官网](http://knockoutjs.com/),兼容IE9,
 
 ### 4.2 css及icon类库
+
 > css样式兼容性测试，[传送门](http://caniuse.com/)
 
 |序号|名称|类别 |说明| 相关信息|
@@ -52,8 +53,9 @@
 |4   |gliphyicon |图标、样式库 |Author:Jan Kovarik |[官网](http://glyphicons.com/)|
 
 ### 4.3 动画类库
+
 |序号|名称         |技术类型            |Star指数|备注|说明|
-|---|-------------|------------------:|-----|----|-----|
+|---|-------------|------------------:|-----|------|-----|
 |1  |animate.css  |CSS (55.2kB)      |42,557+|63种纯CSS过度动画效果|[案例](https://daneden.github.io/animate.css/)|
 |2  |hover.css    |CSS               |16,828+|丰富的悬停效果amazing|[案例](http://ianlunn.github.io/Hover/)|
 |3  |magic.css    |CSS (36.5kB)      |4,915+ |丰富的渐变效果       |[案例](https://minimamente.com/example/magic_animations/)|
