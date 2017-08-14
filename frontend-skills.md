@@ -59,7 +59,7 @@
 - thymeleaf JAVA模板--------[官网](http://www.thymeleaf.org/)
 
 各路模板比拼：
-![](/source/imgs/template.png)
+![](/sources/imgs/template.png)
 
 
 
