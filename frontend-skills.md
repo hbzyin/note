@@ -11,6 +11,14 @@
 | 2 |数据库|php      |数据库脚本||[官网](http://php.net/)|
 | 3 |数据库|Nodejs   |数据库脚本|事件驱动、非阻塞I/O模型|[官网](https://nodejs.org/zh-cn/)|
 
+  2.1 后端框架
+  |序号   |  名 称  |所属语言  |模板引擎 |相关技术|
+  |------|---------|--------|--------|-----------|
+  |1     |Laravel  |php     |blade   ||
+  |2     |SpringMVC|JAVA    |thymeleaf||
+  |3     |Express  |Nodejs  |jade/ejs||
+
+
 
 ## 3. 前端构建工具
 
@@ -40,6 +48,15 @@
 |6  |ember    |               ||17,956+|129.89kb/v2.13.3|陡峭|全能框架、大量约定 |[官网](https://www.emberjs.com/)|
 |7  |Riot.js  |               ||12,042+||   |轻量级        |[官网](http://riotjs.com/)|
 |8  |knockout.js|*可学习,不推荐使用*|| 8,249+||适中|MVVM     |[官网](http://knockoutjs.com/),兼容IE9,
+
+### 4.2 模板引擎技术
+
+- ejs       Javascript模板--[官网](http://ejs.co/)
+- jade      js+html模板-----[官网](http://jade-lang.com/)
+- blade     php 模板--------[官网](https://laravel.com/docs/5.4/blade)
+- Smarty    php 模板--------[官网](https://github.com/smarty-php/smarty)
+- thymeleaf JAVA模板--------[官网](http://www.thymeleaf.org/)
+
 
 ### 4.2 css及icon类库
 
@@ -89,7 +106,9 @@
  5. alasql.js  ——客户端数据库操作插件，用户web浏览器js内存中的数据库操作插件，可配合nodejs使用；[官网](http://alasql.org/)、[github](https://github.com/agershun/alasql) star:+1910
  6. lokijs     ——客户端操作数据库插件，alasql.js替代插件，[官网](http://lokijs.org/#/)、[github](https://github.com/techfort/LokiJS) star +3，428:
 
-## 6. 其他
+## 6. SPA项目的SEO解决方案
 
-- SPA项目的SEO解决方案：目前spa页面的最大缺点莫过于搜索引擎的友好型很差，所以需要慎重考虑使用场景；百度针对SPA的工具**Fate工具库** [官网](http://fate.baidu.com/)
+> 目前spa页面的最大缺点莫过于搜索引擎的友好型很差，所以需要慎重考虑使用场景；
+- SEO.js ：针对google搜索引擎,使单页面应用可被爬虫爬取的插件，[官网](http://getseojs.com/)
+- 百度针对SPA的工具**Fate工具库** [官网](http://fate.baidu.com/)
 ![](/sources/imgs/baiduFate.png)
