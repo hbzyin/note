@@ -15,7 +15,7 @@
   |序号   |  名 称  |所属语言  |模板引擎 |相关技术|
   |------|---------|--------|--------|-----------|
   |1     |Laravel  |php     |blade   ||
-  |2     |SpringMVC|JAVA    |thymeleaf||
+  |2     |SpringMVC|JAVA    |thymeleaf|
   |3     |Express  |Nodejs  |jade/ejs||
 
 
