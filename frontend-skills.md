@@ -57,6 +57,10 @@
 - Smarty    php 模板--------[官网](https://github.com/smarty-php/smarty)
 - thymeleaf JAVA模板--------[官网](http://www.thymeleaf.org/)
 
+各路模板比拼：
+![](/source/imgs/template.png)
+
+
 
 ### 4.2 css及icon类库
 
