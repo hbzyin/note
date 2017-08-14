@@ -1,9 +1,9 @@
 ## 1. 设计模式相关
-> 1. 响应式/函数式编程：Rxjs-Reactive extention for javascript 
+> 1. 响应式/函数式编程：Rxjs-Reactive extention for javascript
 > 2. 面向对象式编程：   OOP -Object Oriented Programming
 > 3. 迭代器模式编程：   Iterator Pattern（ES6中可迭代对象：Array、String、Map、Set、DOM data structures）
 
-## 2. Back-end 
+## 2. Back-end
 
 |序号| 范围 |名称     |作用     |使用场景|相关信息|
 |---|---  |---      |---     |---|----|
@@ -17,12 +17,12 @@
 |序号|类别              |名称    |作用(范围)              |star|特点|官网|
 |---|-----------------|-------|-------------------|-------:|---|----|
 |1  | JS包管理器       |npm     | JavaScript包管理器 |13,284+| |[官网](https://www.npmjs.com/)|
-|2  | JS包管理器       |yarn    | JavaScript包管理器 |26,461+| |[官网](https://yarnpkg.com/lang/en/)| 
-|3  | 前端项目打包压缩  |webpack  | 所有资源          |30,423+| |[官网](https://webpack.js.org/)| 
-|4  | 前端项目打包压缩  |gulp     | js、css、html    |26,924+| |[官网](https://gulpjs.com/)| 
-|5  | 前端项目打包压缩  |grunt    | js、css、html    |11,508+| |[官网](https://gruntjs.com/)| 
-|6  | 前端项目打包压缩  |bower    | js、css、html    |15,171+| |[官网](https://bower.io/)| 
-|7  | 前端项目打包压缩  |browserify| js、css、html   |11,201+| |[官网](http://browserify.org/)| 
+|2  | JS包管理器       |yarn    | JavaScript包管理器 |26,461+| |[官网](https://yarnpkg.com/lang/en/)|
+|3  | 前端项目打包压缩  |webpack  | 所有资源          |30,423+| |[官网](https://webpack.js.org/)|
+|4  | 前端项目打包压缩  |gulp     | js、css、html    |26,924+| |[官网](https://gulpjs.com/)|
+|5  | 前端项目打包压缩  |grunt    | js、css、html    |11,508+| |[官网](https://gruntjs.com/)|
+|6  | 前端项目打包压缩  |bower    | js、css、html    |15,171+| |[官网](https://bower.io/)|
+|7  | 前端项目打包压缩  |browserify| js、css、html   |11,201+| |[官网](http://browserify.org/)|
 
 
 ## 4. Front-end
@@ -80,6 +80,7 @@
 
 [简单粗暴的动车通道](https://www.zhihu.com/question/19929609)
 
+
 ## 5. Program tools
  1.  Jquery     ——前端入门级别插件库，主要用于调用DOM操作 [英文官方网站链接](https://jquery.com/)，[中文推荐非官方链接](http://hemin.cn/jq/)
  2. Underscore ——函数式编程的功能集，提供一系列远超过map、filter、invoke等方法，涵盖函数绑定、js模板、创建索引，强类型测试等，[英文官方网站链接](http://underscorejs.org/) ，[中文官方链接](http://www.bootcss.com/p/underscore/)
@@ -88,3 +89,7 @@
  5. alasql.js  ——客户端数据库操作插件，用户web浏览器js内存中的数据库操作插件，可配合nodejs使用；[官网](http://alasql.org/)、[github](https://github.com/agershun/alasql) star:+1910
  6. lokijs     ——客户端操作数据库插件，alasql.js替代插件，[官网](http://lokijs.org/#/)、[github](https://github.com/techfort/LokiJS) star +3，428:
 
+## 6. 其他
+
+- SPA项目的SEO解决方案：目前spa页面的最大缺点莫过于搜索引擎的友好型很差，所以需要慎重考虑使用场景；百度针对SPA的工具**Fate工具库** [官网](http://fate.baidu.com/)
+![](/sources/imgs/baiduFate.png)
