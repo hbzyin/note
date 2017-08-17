@@ -12,12 +12,15 @@
 | 3 |数据库|Nodejs   |数据库脚本|事件驱动、非阻塞I/O模型|[官网](https://nodejs.org/zh-cn/)|
 
   2.1 后端框架
-  |序号   |  名 称  |所属语言  |模板引擎 |相关技术|
-  |------|---------|--------|--------|-----------|
-  |1     |Laravel  |php     |blade   ||
-  |2     |SpringMVC|JAVA    |thymeleaf|
-  |3     |Express  |Nodejs  |jade/ejs||
 
+  |序号   |  名 称  |所属语言  |模板引擎   |相关技术|
+  |------|---------|--------|----------|-----------|
+  |1     |Laravel  |php     |blade     ||
+  |2     |SpringMVC|JAVA    |thymeleaf ||
+  |3     |Express  |Nodejs  |jade、ejs、handlerbar||
+  |4     |KOA      |Nodejs  |||
+
+> [KOA 、Express、Hapi三大框架对比](http://www.cnblogs.com/souvenir/p/6039990.html)
 
 
 ## 3. 前端构建工具
@@ -58,7 +61,8 @@
 - thymeleaf JAVA模板--------[官网](http://www.thymeleaf.org/)
 
 各路模板比拼：
-![](/source/imgs/template.png)
+
+![](/sources/imgs/template.png)
 
 
 
@@ -114,5 +118,5 @@
 
 > 目前spa页面的最大缺点莫过于搜索引擎的友好型很差，所以需要慎重考虑使用场景；
 - SEO.js ：针对google搜索引擎,使单页面应用可被爬虫爬取的插件，[官网](http://getseojs.com/)
-- 百度针对SPA的工具**Fate工具库** [官网](http://fate.baidu.com/)
+- Fate :百度针对SPA的工具库 [官网](http://fate.baidu.com/)
 ![](/sources/imgs/baiduFate.png)
