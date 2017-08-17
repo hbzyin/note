@@ -12,6 +12,15 @@
 | 3 |数据库|Nodejs   |数据库脚本|事件驱动、非阻塞I/O模型|[官网](https://nodejs.org/zh-cn/)|
 
   2.1 后端框架
+<<<<<<< HEAD
+=======
+  
+  |序号   |  名 称  |所属语言  |模板引擎 |相关技术|
+  |------|---------|--------|--------|-----------|
+  |1     |Laravel  |php     |blade   ||
+  |2     |SpringMVC|JAVA    |thymeleaf|
+  |3     |Express  |Nodejs  |jade/ejs||
+>>>>>>> 62e61a709e31d20e5425dc42cbc5966cba09e749
 
   |序号   |  名 称  |所属语言  |模板引擎   |相关技术|
   |------|---------|--------|----------|-----------|
@@ -61,7 +70,10 @@
 - thymeleaf JAVA模板--------[官网](http://www.thymeleaf.org/)
 
 各路模板比拼：
+<<<<<<< HEAD
 
+=======
+>>>>>>> 62e61a709e31d20e5425dc42cbc5966cba09e749
 ![](/sources/imgs/template.png)
 
 
