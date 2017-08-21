@@ -57,6 +57,6 @@ Route::get('blade',function(){return view('child')});
  <div>
     Monthly Revenue: {{ $metrics->monthlyRevenue()}}；//
  </div>
- ``` 
- ## 8. 拓展命令
+ ```
+ ## 9. 拓展命令
  - Blade 甚至允许你使用 directive 方法来注册自己的命令。当 Blade 编译器遇到该命令时，它将会带参数调用提供的回调函数
