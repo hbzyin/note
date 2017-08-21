@@ -17,7 +17,7 @@
   |------|---------|--------|--------|-----------|
   |1     |Laravel  |php     |blade   ||
   |2     |SpringMVC|JAVA    |thymeleaf|
-  |3     |Express  |Nodejs  |jade、ejs、handlerbar|热部署工具[PM2](http://pm2.keymetrics.io/)、[Forever](http://blog.fens.me/nodejs-server-forever/)|
+  |3     |Express  |Nodejs  |jade、ejs、handlerbar|热部署工具[PM2](http://pm2.keymetrics.io/)、[Forever](http://blog.fens.me/nodejs-server-forever/)、strongloopPM|
   |4     |KOA      |Nodejs  |||
 
 > [KOA 、Express、Hapi三大框架对比](http://www.cnblogs.com/souvenir/p/6039990.html)
