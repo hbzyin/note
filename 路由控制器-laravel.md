@@ -30,10 +30,10 @@
 2. 该路由声明会创建多个路由来处理以下7种不同的资源操作  ：
   |序号|动作     |URI               |操作   |路由名称       |备注|
   |---|---------|-----------------|-------|-------------|-------|
-  |1  |GET      |`names`          |index  |names.index  |获取全部names信息|
-  |2  |GET      |`names/create`   |create |names.create |获取用户视图信息|
-  |3  |POST     |`names`          |store  |names.store  |添加一条name记录|
-  |4  |GET      |`names`          |show   |names.show   |获取name详情信息|
-  |5  |GET      |`names/{id}/edit`|edit   |names.edit   |修改一条name信息|
-  |6  |PUT/PATCH|`names`          |update |names.update |更新names记录信息|
-  |7  |GET      |`names`          |destroy|names.destroy|删除一条name信息|
+  |1  |GET      |`names`          |index  |names.index  |显示names信息/列表|
+  |2  |GET      |`names/create`   |create |names.create |创建name视图/表单|
+  |3  |POST     |`names`          |store  |names.store  |保存创建的name记录|
+  |4  |GET      |`names/{id}`     |show   |names.show   |获取一条name记录|
+  |5  |GET      |`names/{id}/edit`|edit   |names.edit   |编辑一条name记录|
+  |6  |PUT/PATCH|`names/{id}`     |update |names.update |更新一条name记录|
+  |7  |GET      |`names/{id}`     |destroy|names.destroy|删除一条name记录|
