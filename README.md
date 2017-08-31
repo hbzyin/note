@@ -1,4 +1,6 @@
-# 目录及介绍  [EN](https://github.com/hbzyin/blog/blob/master/README_EN.md)
+# 目录及介绍  
+<div style='float-right'>For English Docs,click here [EN](https://github.com/hbzyin/blog/blob/master/README_EN.md)
+  </div>
 
 
 > 本文档主要为所属仓库主要内容目录，其目的是便于查阅；
