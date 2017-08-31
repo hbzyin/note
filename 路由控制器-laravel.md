@@ -28,6 +28,7 @@
 > Laravel资源控制器将典型的*CURD*路由指定到一个控制器上，可使用Artisan命令快速创建`php artisan make:controller NameController --resource`，该命令在`app\Http\Controllers\NameController.php`中生成一个控制器，改控制器包含了默认的7中可利用资源操作方法
 1. 注册资源路由：`Route::resource('names','NameController')`
 2. 该路由声明会创建多个路由来处理以下7种不同的资源操作  ：
+
   |序号|动作     |URI               |操作   |路由名称       |备注|
   |---|---------|-----------------|-------|-------------|-------|
   |1  |GET      |`names`          |index  |names.index  |显示names信息/列表|
