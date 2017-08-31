@@ -10,7 +10,11 @@
   2. 注册路由控制器：
     1. 注册路由+控制器指定方法 `Route::get('user','UserController@index');`
     2. 注册路由+单一操作控制器：`Route::get('userinfo/{id}','UserInfoController');`（单一操作控制器无需指明方法）
+<<<<<<< HEAD
   3. 控制器路由中使用中间件：
+=======
+  4. 控制器路由中使用中间件：
+>>>>>>> c4f6c7f6da212a597e3e92e83d73ff3a934b9fa2
     1. 路由文件中指定中间件：`Route::get('user','UserController@store')->middleware(auth);`
     2. 控制器构造方法指定中间件：
     ```
@@ -25,10 +29,14 @@
     ```
 
 ### 2. laravel资源控制器
+<<<<<<< HEAD
 > Laravel资源控制器将典型的*CURD*路由指定到一个控制器上，可使用Artisan命令快速创建`php artisan make:controller NameController --resource`，该命令在`app\Http\Controllers\NameController.php`
 
 ##### 1. 默认配置路由资源
 
+=======
+> Laravel资源控制器将典型的*CURD*路由指定到一个控制器上，可使用Artisan命令快速创建`php artisan make:controller NameController --resource`，该命令在`app\Http\Controllers\NameController.php`中生成一个控制器，改控制器包含了默认的7中可利用资源操作方法
+>>>>>>> c4f6c7f6da212a597e3e92e83d73ff3a934b9fa2
 1. 注册资源路由：`Route::resource('names','NameController')`
 2. 该路由声明会创建多个路由来处理以下7种不同的资源操作  ：
 
@@ -41,6 +49,7 @@
   |5  |GET      |`names/{id}/edit`|edit   |names.edit   |编辑一条name记录|
   |6  |PUT/PATCH|`names/{id}`     |update |names.update |更新一条name记录|
   |7  |GET      |`names/{id}`     |destroy|names.destroy|删除一条name记录|
+<<<<<<< HEAD
 
 ##### 2. 自定义路由资源
 1. 声明部分路由资源：可指定控制器处理部分操作，而不必使用全部的默认操作如：
@@ -86,3 +95,5 @@ class UserController extends Controller{
 - 路由缓存机制仅在基于路由控制器的情况下适用；
 - 执行缓存机制后，每次请求都会加载缓存路由文件，增加新的路由是，需要刷新路由缓存；`php artisan route:clear`
 -
+=======
+>>>>>>> c4f6c7f6da212a597e3e92e83d73ff3a934b9fa2
