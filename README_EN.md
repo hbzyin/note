@@ -1,4 +1,5 @@
 # Introduction of the cotent
+**中文文档目录 请点击[中文](https://github.com/hbzyin/blog/blob/master/README.md)**
 > Here is the index of the content for this blog repositry.
 
 ## About Front End skills

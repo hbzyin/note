@@ -1,4 +1,8 @@
-# 目录及介绍
+# 目录及介绍  
+
+*For English Docs,click here [EN](https://github.com/hbzyin/blog/blob/master/README_EN.md)*
+
+
 
 > 本文档主要为所属仓库主要内容目录，其目的是便于查阅；
 
@@ -7,6 +11,7 @@
 ## 前端开发相关知识汇总.
 
 > [1.前端开发者知识体系完善](./frontend-skills.md) (不定期更新中...)；
+
 > [2.前端开发常用组件汇总](./ngx-boosttrapComp.md)
 
 ## 版本管理工作流探讨
