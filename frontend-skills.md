@@ -110,8 +110,9 @@
  2. Underscore ——函数式编程的功能集，提供一系列远超过map、filter、invoke等方法，涵盖函数绑定、js模板、创建索引，强类型测试等，[英文官方网站链接](http://underscorejs.org/) ，[中文官方链接](http://www.bootcss.com/p/underscore/)
  3. moment.js  ——JS时间处理插件，肥肠强大，[英文官方网站链接](https://momentjs.com/)， [中文官方链接](http://momentjs.cn/)
  4. rxjs       ——观察者模式，强大的函数式编程插件  [入门介绍传送](https://segmentfault.com/a/1190000008809168#articleHeader11)，[英文官方网站链接](http://reactivex.io/rxjs/)，[推荐非官方中文文档](https://buctwbzs.gitbooks.io/rxjs/content/operators.html)
- 5. alasql.js  ——客户端数据库操作插件，用户web浏览器js内存中的数据库操作插件，可配合nodejs使用；[官网](http://alasql.org/)、[github](https://github.com/agershun/alasql) star:+1910
- 6. lokijs     ——客户端操作数据库插件，alasql.js替代插件，[官网](http://lokijs.org/#/)、[github](https://github.com/techfort/LokiJS) star +3，428:
+ 5. mock.js    ——一个模拟数据生成器，可以让前端独立于后端进行开发。主要功能：生成随机数据，拦截Ajax,适用场景：后端api未开发法完成，但数据格式已经确定。[官网](http://mockjs.com/)、[Github](https://github.com/nuysoft/Mock)
+ 6. alasql.js  ——客户端数据库操作插件，用户web浏览器js内存中的数据库操作插件，可配合nodejs使用；[官网](http://alasql.org/)、[github](https://github.com/agershun/alasql) star:+1910
+ 7. lokijs     ——客户端操作数据库插件，alasql.js替代插件，[官网](http://lokijs.org/#/)、[github](https://github.com/techfort/LokiJS) star +3，428:
 
 ## 6. SPA项目的SEO解决方案
 
