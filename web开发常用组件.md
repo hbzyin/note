@@ -39,6 +39,7 @@
 3. popover
 
 ![](./sources/imgs/ng-bootstrap/popover.png)
+
 4. alertts
 ![](./sources/imgs/ng-bootstrap/alerts.png)
 5. modal
