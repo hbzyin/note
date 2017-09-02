@@ -31,4 +31,31 @@
 
 
 
+具体效果图如下
+1. carousel
+![](./sources/imgs/ng-bootstrap/carousel.png)
+2.  tips
+![](./sources/imgs/ng-bootstrap/tooltip.png)
+3. popover
+![](./sources/imgs/ng-bootstrap/popover.png)
+4. alertts
+![](./sources/imgs/ng-bootstrap/alerts.png)
+5. modal
+![](./sources/imgs/ng-bootstrap/modal.png)
+6. timepicker
+![](./sources/imgs/ng-bootstrap/timepicker.png)
+7. datepicker
+![](./sources/imgs/ng-bootstrap/datepicker.png)
+8. pagination
+![](./sources/imgs/ng-bootstrap/pagination.png)
+9. progressBar
+![](./sources/imgs/ng-bootstrap/progressbar.png)
+10. tabs
+![](./sources/imgs/ng-bootstrap/tabs.png)
+11. rating
+![](./sources/imgs/ng-bootstrap/rating.png)
+
+
+
+
 --不定期更新中....
