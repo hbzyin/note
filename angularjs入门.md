@@ -150,9 +150,8 @@ console.log(str2); // Publish by Karen on 2014-1-2
   - 作用域指令(构建类)：2个(ng-app、ng-controlller)，他们会修改嵌套在其内部的指令的作用域；
   - 作用域指令(视图类)：2个(ng-include、ng-view)，主要用来加载、编译应用外部html片段，或者为内部html设置路由管理的视图位置；
   - 作用域指令(表单类)：2个(ng-form、ng-selecet)，主要用来设置与表单输入相关指令；
-  -
   - 作用域指令(样式类)：4个+(ng-class、ng-attr-(suffix)、ng-show、ng-hide..),主要用来设置标签元素的样式类名`class`或属性；
   - 作用域指令(逻辑类)：3个(ng-switch、ng-repeat、ng-if)主要通过逻辑处理来进行页面视图的输出显示；
   - 作用域指令(数据绑定类)：6个(ng-init、ng-model、{{}}、ng-cloak、ng-bind、ng-bind-template)：主要用来对html页面视图与数据模型进行绑定；
   - 作用域指令(事件绑定)：(ng-click、ng-submit、ng-dbclick、ng-change、ng-mouseover、ng-mouseout、ng-mouseenter、ng-mouseleave...)
-10.
+
